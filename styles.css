@@ -98,9 +98,11 @@ button {
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
-
 }
-
+.selection{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
 .selection_header {
     text-align: center;
     color: #1F2937;
@@ -116,22 +118,70 @@ button {
     border-radius: 15px;
 }
 
-.Testimonial {
-    background-color: #E5E7EB;
-    height: 300px;
-
+.text {
+    font-size: 20px;
 }
 
-.testimonial_text {
+.Testimonial {
+    background-color: #E5E7EB;
     display: flex;
+    height: 500px;
+    width: auto;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: 30px;
-    padding: 50px 50px 50px 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
-    padding: 100px;
-    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    width: 900px;
+}
 
+.name {
+    font-size: 36px;
+    justify-content: right;
+    margin-left: 400px
+}
+
+.action {
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue_box {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    padding: 60px;
+    gap: 60px;
+    border-radius: 15px;
+}
+
+.sign_up {
+    font-size: 20px;
+    border: 5px solid white;
+}
+
+.footer {
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
