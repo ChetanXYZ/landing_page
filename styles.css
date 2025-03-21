@@ -6,17 +6,20 @@ body {
 .main_container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     flex: 1;
+    flex-wrap: wrap;
     padding: 8px;
     margin-left: 80px;
 }
